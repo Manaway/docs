@@ -4,54 +4,29 @@ const footer: Footer = {
   style: "dark",
   links: [
     {
-      title: "Community",
+      title: "Soporte",
       items: [
         {
           label: "Discord",
-          href: "https://discord.gg/papermc",
-        },
-        {
-          label: "Forums",
-          href: "https://forums.papermc.io",
-        },
-        {
-          label: "IRC",
-          href: "https://webchat.esper.net/?channels=paper",
+          href: "https://discord.gg/vD8drXYuxn",
         },
       ],
     },
     {
-      title: "Documentation",
+      title: "Otros enlaces",
       items: [
         {
-          label: "Javadoc",
-          href: "https://papermc.io/javadocs",
+          label: "Sitio web",
+          href: "https://deltahost.cloud",
         },
         {
-          label: "Docs",
-          href: "/",
-        },
-        {
-          label: "Downloads API",
-          href: "https://api.papermc.io/docs",
-        },
-      ],
-    },
-    {
-      title: "Other",
-      items: [
-        {
-          label: "Main Site",
-          href: "https://papermc.io",
-        },
-        {
-          label: "GitHub",
-          href: "https://github.com/PaperMC",
+          label: "Área de cliente",
+          href: "https://clientes.deltahost.cloud",
         },
       ],
     },
   ],
-  copyright: `Copyright © ${new Date().getFullYear()} PaperMC and Contributors. Built with Docusaurus. <a href="https://vercel.com/?utm_source=papermc&utm_campaign=oss" style="text-decoration:underline;color:inherit;">Powered by ▲ Vercel</a>`,
+  copyright: `Copyright © ${new Date().getFullYear()} DeltaHost. Built with Docusaurus. <a href="https://vercel.com/?utm_source=papermc&utm_campaign=oss" style="text-decoration:underline;color:inherit;">Powered by ▲ Vercel</a>`,
 };
 
 export default footer;
