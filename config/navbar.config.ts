@@ -12,7 +12,7 @@ const navbar: Omit<Navbar, "style" | "hideOnScroll"> = {
   items: [
     {
       type: "dropdown",
-      label: "Paper",
+      label: "Panel",
       to: "/paper",
       position: "left",
       activeBaseRegex: "(\\/paper)(.+)?",
@@ -64,18 +64,13 @@ const navbar: Omit<Navbar, "style" | "hideOnScroll"> = {
       position: "right",
     },
     {
-      to: "https://papermc.io/downloads",
-      label: "Downloads",
+      to: "https://deltahost.cloud",
+      label: "Sitio web",
       position: "right",
     },
     {
-      href: "https://discord.gg/PaperMC",
+      href: "https://discord.gg/vD8drXYuxn",
       className: "header-icon-link header-discord-link",
-      position: "right",
-    },
-    {
-      href: "https://github.com/PaperMC",
-      className: "header-icon-link header-github-link",
       position: "right",
     },
   ],
