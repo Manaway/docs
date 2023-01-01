@@ -18,7 +18,7 @@ const navbar: Omit<Navbar, "style" | "hideOnScroll"> = {
       activeBaseRegex: "(\\/paper)(.+)?",
       items: [
         {
-          label: "Administration",
+          label: "Administración",
           to: "/paper/admin",
           activeBaseRegex: "(\\/paper/)(?!dev)(.+)?",
         },
@@ -31,7 +31,7 @@ const navbar: Omit<Navbar, "style" | "hideOnScroll"> = {
     },
     {
       type: "dropdown",
-      label: "Velocity",
+      label: "Área de cliente",
       to: "/velocity",
       position: "left",
       activeBaseRegex: "(\\/velocity)(.+)?",
