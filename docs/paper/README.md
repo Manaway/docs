@@ -1,4 +1,4 @@
-# Le damos la bienvenida a la documentación de nuestro panel.
+# Introducción
 
 Paper is a high performance fork of the Spigot Minecraft Server that aims to fix gameplay and
 mechanics inconsistencies as well as to improve performance. Paper contains numerous features, bug
